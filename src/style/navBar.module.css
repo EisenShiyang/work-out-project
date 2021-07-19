@@ -1,0 +1,115 @@
+.Navbar {
+    background-color:  #2c2721;
+    font-size: 22px;
+}
+
+.Navbar > img {
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.Home {
+    position: relative;
+    margin-left: 40px;
+    text-decoration: none;
+    color: #cccccc !important;
+}
+
+.Home:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #aaa;
+    height: 1px;
+    transition: all 0.5s;
+}
+
+.Home:hover:after{
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.Record {
+    position: relative;
+    margin-left: 40px;
+    text-decoration: none;
+    color: #cccccc !important;
+}
+
+.Record:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #aaa;
+    height: 1px;
+    transition: all 0.5s;
+}
+
+.Record:hover:after{
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.Visualization {
+    position: relative;
+    margin-left: 40px;
+    text-decoration: none;
+    color: #cccccc !important;
+}
+
+.Visualization:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #aaa;
+    height: 1px;
+    transition: all 0.5s;
+}
+
+.Visualization:hover:after{
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.About {
+    position: relative;
+    margin-left: 40px;
+    text-decoration: none;
+    color: #cccccc !important;
+}
+
+.About:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #aaa;
+    height: 1px;
+    transition: all 0.5s;
+}
+
+.About:hover:after{
+    width: 100%;
+    transition: all 0.5s;
+}
+

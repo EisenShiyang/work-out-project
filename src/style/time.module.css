@@ -1,0 +1,49 @@
+.time_page{
+    height: 100%;
+    position: fixed;
+    width: 100%;
+}
+
+.time_row{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.input_box{
+    line-height: 50px;
+    font-size: 25px;
+    border-radius: 25px !important;
+    text-align: center;
+    outline: none;
+    width: 300px;
+}
+
+.input_date{
+    line-height: 50px;
+    font-size: 25px;
+    border-radius: 25px !important;
+    text-align: center;
+    outline: none;
+    width: 300px;
+}
+
+.complete_btn{
+    width: 175px;
+    height: 50px;
+    background-color: transparent;
+    text-decoration: none;
+    box-shadow: none;
+    border: 1;
+    border-width: 2px;
+    border-radius: 25px;
+    border-color: #2c2721;
+    outline: none;
+    transition: 0.5s;
+}
+
+.complete_btn:hover:enabled{
+    background-color:#2c2721;
+    color: white;
+    transition: 0.5s;
+}
